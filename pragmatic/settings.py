@@ -42,7 +42,9 @@ SECRET_KEY = env('SECRET_KEY')
 # n production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '*'
+]
 
 
 # Application definition
